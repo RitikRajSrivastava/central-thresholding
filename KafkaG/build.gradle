@@ -2,6 +2,12 @@ plugins {
     id 'java'
 }
 
+apply plugin: 'application'
+
+
+mainClassName = 'App'
+
+
 group 'com.shr.rit'
 version '1.0-SNAPSHOT'
 
